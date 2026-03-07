@@ -2,10 +2,27 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <meta http-equiv="refresh" content="0;url=/admin/">
-  <title>Redirecting to CMS…</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Argyle Place — Content Manager</title>
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
-  <p>Redirecting to <a href="/admin/">Content Manager</a>…</p>
+  <script>
+    // If the URL has an invite/recovery/confirmation token, let the Identity widget handle it
+    if (window.location.hash.match(/(invite|recovery|confirmation)_token=/)) {
+      // Widget will show the password-set / confirmation UI automatically
+      window.netlifyIdentity.on('init', function(user) {
+        if (!user) {
+          window.netlifyIdentity.on('login', function() {
+            document.location.href = '/admin/';
+          });
+        }
+      });
+    } else {
+      // No token — just redirect to admin
+      document.location.href = '/admin/';
+    }
+  </script>
+  <p>Loading identity…</p>
 </body>
 </html>
