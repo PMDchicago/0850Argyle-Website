@@ -1,5 +1,9 @@
 import Link from 'next/link';
-import { CheckCircle, Building2 } from 'lucide-react';
+import { CheckCircle, Building2, Camera } from 'lucide-react';
+
+function slugify(title) {
+  return title.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
+}
 
 export default function UnitsGrid({ units = [], disclaimer }) {
   if (!units.length) {
@@ -16,16 +20,40 @@ export default function UnitsGrid({ units = [], disclaimer }) {
       <div className="units-grid">
         {units.map((unit) => {
           const isAvailable = unit.availability === 'Available';
+          const floorPlan = unit.floor_plan || null;
+          const photos = unit.photos || [];
+          const slug = slugify(unit.title);
           return (
             <article key={unit.title} className="unit-card">
-              <div className="unit-img-placeholder">
-                <Building2 size={44} style={{ color: '#b8ac9e' }} strokeWidth={1.25} />
-                <span className="unit-img-label">Photo Coming Soon</span>
-              </div>
+              <Link href={`/floor-plans/${slug}`} style={{ textDecoration: 'none', color: 'inherit' }}>
+                {floorPlan ? (
+                  <div className="unit-img-area">
+                    <img
+                      src={floorPlan}
+                      alt={`${unit.title} floor plan`}
+                      className="unit-floor-plan"
+                    />
+                    {photos.length > 0 && (
+                      <span className="unit-photo-count">
+                        <Camera size={14} /> {photos.length} photos
+                      </span>
+                    )}
+                  </div>
+                ) : (
+                  <div className="unit-img-placeholder">
+                    <Building2 size={44} style={{ color: '#b8ac9e' }} strokeWidth={1.25} />
+                    <span className="unit-img-label">Photo Coming Soon</span>
+                  </div>
+                )}
+              </Link>
 
               <div className="unit-body">
                 <div className="unit-header">
-                  <h3 className="unit-title">{unit.title}</h3>
+                  <h3 className="unit-title">
+                    <Link href={`/floor-plans/${slug}`} style={{ textDecoration: 'none', color: 'inherit' }}>
+                      {unit.title}
+                    </Link>
+                  </h3>
                   <span className={`availability-badge ${isAvailable ? 'badge-available' : 'badge-waitlist'}`}>
                     {unit.availability || 'Call for Info'}
                   </span>
@@ -53,8 +81,8 @@ export default function UnitsGrid({ units = [], disclaimer }) {
               </div>
 
               <div className="unit-footer">
-                <Link href="/contact" className="btn-secondary">
-                  Contact Leasing Office
+                <Link href={`/floor-plans/${slug}`} className="btn-secondary">
+                  View Details & Photos
                 </Link>
               </div>
             </article>
