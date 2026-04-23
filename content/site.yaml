@@ -1,5 +1,5 @@
 site_title: Argyle Place
-phone_number: (773) 275-0850
+phone_number: (773) 561-3463
 address:
   street: 840–850 W. Argyle St.
   city: Chicago
@@ -28,4 +28,5 @@ nav:
     href: /contact
 footer:
   equal_housing: true
-  disclaimer: Pricing and availability subject to change. Contact leasing office for current details.
+  disclaimer: Pricing and availability subject to change. Contact leasing office
+    for current details.
