@@ -1,6 +1,6 @@
 ---
 title: Home
-seo_description: Argyle Place apartments in Chicago's Uptown neighborhood —
+seo_description: Argyle Place apartments in Chicago's Uptown neighborhood -
   affordable studios, 1-bedroom, and 2-bedroom apartments near the lakefront.
 hero_image: ""
 ---
