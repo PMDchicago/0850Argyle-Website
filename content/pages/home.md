@@ -10,5 +10,5 @@ Argyle Place offers the best of city living in Chicago's vibrant Uptown neighbor
 
 * 88 total units across studio, 1-bedroom, and 2-bedroom layouts
 * Heat, cooking gas, water, and high-speed internet included in rent
-* 2 blocks from the Argyle Red Line station — 20 minutes to the Loop
+* 2 blocks from the Argyle Red Line station - 20 minutes to the Loop
 * Steps from Foster Beach, Andersonville shops, and Asia on Argyle dining
