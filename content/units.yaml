@@ -1,100 +1,100 @@
 units:
-- title: Studio
-  price_range: $1,600
-  sq_ft: null
-  availability: Waitlist
-  features:
-  - Efficient open layout
-  - Ceramic tile bath
-  - Ceiling fans & window coverings
-  income_restricted: false
-- title: 1 Bedroom — GLWI
-  price_range: $1,600
-  sq_ft: null
-  availability: Waitlist
-  features:
-  - Separate bedroom
-  - Island kitchen with oven/range
-  - 3–4 closets
-  income_restricted: false
-- title: 1 Bedroom — LWI
-  price_range: $1,600
-  sq_ft: null
-  availability: Waitlist
-  features:
-  - Separate bedroom
-  - Functional kitchen
-  - Tons of natural light
-  income_restricted: false
-- title: 1 Bedroom — HWI
-  price_range: $1,600
-  sq_ft: null
-  availability: Waitlist
-  features:
-  - Higher floor plan
-  - Windowed kitchen
-  - Ceramic tile bath
-  income_restricted: false
-- title: 1 Bedroom — LBK
-  price_range: $1,600
-  sq_ft: null
-  availability: Waitlist
-  features:
-  - Separate bedroom
-  - Breakfast nook layout
-  - Plush carpet throughout
-  income_restricted: false
-- title: 1 Bedroom — HBK
-  price_range: $1,600
-  sq_ft: null
-  availability: Waitlist
-  features:
-  - Higher floor plan
-  - Breakfast kitchen
-  - Foyer entry
-  income_restricted: false
-- title: 1 Bedroom — LSH
-  price_range: $1,600
-  sq_ft: null
-  availability: Waitlist
-  features:
-  - Separate bedroom
-  - Updated tub/shower
-  - Extra storage options
-  income_restricted: false
-- title: 1 Bedroom — HSH
-  price_range: $1,600
-  sq_ft: null
-  availability: Waitlist
-  features:
-  - Higher floor plan
-  - Shower layout
-  - Ceiling fans
-  income_restricted: false
-- title: 1 Bedroom — LM
-  price_range: $1,600
-  sq_ft: null
-  availability: Waitlist
-  features:
-  - Separate bedroom
-  - Modified layout
-  - Window coverings included
-  income_restricted: false
-- title: 1 Bedroom — HM
-  price_range: $1,600
-  sq_ft: null
-  availability: Waitlist
-  features:
-  - Higher floor modified plan
-  - Spacious bedroom
-  - Natural light
-  income_restricted: false
-- title: 2 Bedroom (2BDM)
-  price_range: $1,700
-  sq_ft: null
-  availability: Waitlist
-  features:
-  - Two-bedroom layout
-  - Extra storage
-  - Dining area
-  income_restricted: false
+  - title: Studio
+    price_range: $1,400
+    sq_ft: null
+    availability: Waitlist
+    features:
+      - Efficient open layout
+      - Ceramic tile bath
+      - Ceiling fans & window coverings
+    income_restricted: false
+  - title: 1 Bedroom — GLWI
+    price_range: $1,600
+    sq_ft: null
+    availability: Waitlist
+    features:
+      - Separate bedroom
+      - Island kitchen with oven/range
+      - 3–4 closets
+    income_restricted: false
+  - title: 1 Bedroom — LWI
+    price_range: $1,600
+    sq_ft: null
+    availability: Waitlist
+    features:
+      - Separate bedroom
+      - Functional kitchen
+      - Tons of natural light
+    income_restricted: false
+  - title: 1 Bedroom — HWI
+    price_range: $1,600
+    sq_ft: null
+    availability: Waitlist
+    features:
+      - Higher floor plan
+      - Windowed kitchen
+      - Ceramic tile bath
+    income_restricted: false
+  - title: 1 Bedroom — LBK
+    price_range: $1,600
+    sq_ft: null
+    availability: Waitlist
+    features:
+      - Separate bedroom
+      - Breakfast nook layout
+      - Plush carpet throughout
+    income_restricted: false
+  - title: 1 Bedroom — HBK
+    price_range: $1,600
+    sq_ft: null
+    availability: Waitlist
+    features:
+      - Higher floor plan
+      - Breakfast kitchen
+      - Foyer entry
+    income_restricted: false
+  - title: 1 Bedroom — LSH
+    price_range: $1,600
+    sq_ft: null
+    availability: Waitlist
+    features:
+      - Separate bedroom
+      - Updated tub/shower
+      - Extra storage options
+    income_restricted: false
+  - title: 1 Bedroom — HSH
+    price_range: $1,600
+    sq_ft: null
+    availability: Waitlist
+    features:
+      - Higher floor plan
+      - Shower layout
+      - Ceiling fans
+    income_restricted: false
+  - title: 1 Bedroom — LM
+    price_range: $1,600
+    sq_ft: null
+    availability: Waitlist
+    features:
+      - Separate bedroom
+      - Modified layout
+      - Window coverings included
+    income_restricted: false
+  - title: 1 Bedroom — HM
+    price_range: $1,600
+    sq_ft: null
+    availability: Waitlist
+    features:
+      - Higher floor modified plan
+      - Spacious bedroom
+      - Natural light
+    income_restricted: false
+  - title: 2 Bedroom (2BDM)
+    price_range: $1,700
+    sq_ft: null
+    availability: Waitlist
+    features:
+      - Two-bedroom layout
+      - Extra storage
+      - Dining area
+    income_restricted: false
